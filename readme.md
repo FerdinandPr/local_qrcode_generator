@@ -12,6 +12,7 @@ podman run --rm --userns=keep-id -e QR_TEXT="Hallo Welt" -e QR_FILENAME=hallo.bm
 ```
 
 ### Parameter
+- QR_TEXT: String den man im QR-Code verstecken will
 - QR_FILENAME: Dateiname, Standard qrcode.bmp
 - QR_BOX_SIZE: Pixel pro Modul, Standard 10
 - QR_BORDER: Rand in Modulen, Standard 4
