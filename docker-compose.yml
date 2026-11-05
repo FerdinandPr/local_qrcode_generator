@@ -1,0 +1,9 @@
+services:
+  qr:
+    build: .
+    image: qr-generator:latest
+    environment:
+      QR_TEXT: "https://example.com"
+      QR_FILENAME: "qrcode.bmp"
+    volumes:
+      - ./out:/output
